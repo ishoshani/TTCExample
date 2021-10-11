@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="main">
+        <div class="gamename" id="gamename">
+            Tic Tac Toe
+        </div>
+    <div class="board">
+        <table>
+            <tr>
+                <td>
+                    <canvas class="piece" height=100 width=100 id="00"></canvas>
+                </td>
+                <td>
+                    <canvas class="piece" height=100 width=100 id="01"></canvas>
+                </td>
+                <td>
+                    <canvas class="piece" height=100 width=100 id="02"></canvas>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <canvas class="piece" height=100 width=100 id="10"></canvas>
+                </td>
+                <td>
+                    <canvas class="piece" height=100 width=100 id="11"></canvas>
+                </td>
+                <td>
+                    <canvas class="piece" height=100 width=100 id="12"></canvas>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <canvas class="piece" height=100 width=100 id="20"></canvas>
+                </td>
+                <td>
+                    <canvas class="piece" height=100 width=100 id="21"></canvas>
+                </td>
+                <td>
+                    <canvas class="piece" height=100 width=100 id="22"></canvas>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div class="newgamebutton" id="newgamebutton">
+        <div class="newgametext">
+            New Game
+        </div>
+    </div>
+
+    </div>
+</body>
+<script src="gameData.js"></script>
+<script src="gamePiece.js"></script>
+<script src="game.js"></script>
