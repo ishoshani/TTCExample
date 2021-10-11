@@ -1,6 +1,6 @@
 # Testing
 
-To run, make sure you use npm-install, then run "node index.js". You can then point a browser to localhost:3000 to see the UI. 
+To run, make sure you use "npm install", then run "node index.js". You can then point a browser to localhost:3000 to see the UI. 
 
 # Notes
 
